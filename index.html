@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despliegue de Software</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: #0D0D0D;
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        /* Contenedor principal */
+        .container {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 255, 255, 0.7);
+            max-width: 600px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: cyan;
+            animation: slideIn 1s ease-in-out;
+            text-shadow: 0 0 10px cyan;
+        }
+
+        .icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+            animation: bounce 2s infinite;
+            color: cyan;
+            text-shadow: 0 0 10px cyan;
+        }
+
+        .team {
+            font-size: 20px;
+            margin-top: 10px;
+            animation: fadeIn 2s ease-in-out;
+            color: #00ffff;
+            text-shadow: 0 0 5px cyan;
+        }
+
+        /* Animaciones */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="icon">💻⚙️</div>
+        <h1>Despliegue de Software</h1>
+        <p class="team"><strong>Integrantes:</strong></p>
+        <p class="team">🔹 Wilmer Herrera Cardona</p>
+        <p class="team">🔹 Julián Esteban Molina Cruz</p>
+        <p class="team">🔹 Yoider David Correa Pérez</p>
+        <p class="team">🔹 Kevin Andrés Ortiz Largacha</p>
+    </div>
+
+</body>
+</html>
